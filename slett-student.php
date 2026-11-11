@@ -7,7 +7,7 @@
 
 <h3>Slett student</h3>
 
-<form method="post" action="" id="slettStudentSkjema" name="slettStudentSkjema">
+<form method="post" action="" id="slettStudentSkjema" name="slettStudentSkjema" onSubmit="return confirm('Er du sikker?');">
   Brukernavn
   <select name="brukernavn" id="brukernavn" required>
     <option value="">Velg student</option>
